@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+    <link rel="stylesheet" href="resources/css/search.css">
+</head>
+<body class="m-5">
+<div class="container">
+    <div class="row justify-content-around w-50 m-auto pb-3 fa-2x">
+        <div class="form-inline my-2 my-lg-0">
+            <input id="criteria" class="form-control mr-sm-2" placeholder="Search Wikipedia" aria-label="Search"
+                   autofocus>
+            <button id="search" class="btn button-outline-california my-2 my-sm-0">Search</button>
+        </div>
+        <a id="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+            <div class="hide">
+          <span class="fa-stack">
+          <i class="fas fa-circle fa-stack-1x text-california" data-fa-transform="grow-3"></i>
+          <i class="fas fa-random fa-stack-1x fa-inverse" data-fa-transform="shrink-3"></i>
+        </span>
+            </div>
+            <div>
+          <span class="fa-stack">
+          <i class="fas fa-circle fa-stack-1x fa-inverse" data-fa-transform="grow-3"></i>
+          <i class="fas fa-random fa-stack-1x text-california" data-fa-transform="shrink-3"></i>
+        </span>
+            </div>
+        </a>
+    </div>
+    <div id="data" class="row m-auto w-75"></div>
+    <div class="row justify-content-center pt-3">
+        <button id="more" class="btn button-outline-california my-2 my-sm-0 hide">More</button>
+    </div>
+</div>
+<script defer="" src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+        integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+<script src=resources/js/search.js></script>
+</body>
+</html>

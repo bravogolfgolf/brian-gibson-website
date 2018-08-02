@@ -1,0 +1,15 @@
+a:hover {
+    text-decoration: none;
+}
+
+#button {
+    color: #b71234;
+}
+
+#button:hover {
+    color: #96091c;
+}
+
+.hide {
+    display: none;
+}

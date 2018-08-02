@@ -1,0 +1,24 @@
+.button-california {
+    background-color: #b71234;
+    color: #fff;
+    border-color: #b71234;
+}
+
+.button-california:hover {
+    background-color: #96091c;
+    color: #fff;
+    border-color: #96091c;
+}
+
+#social {
+    cursor: default;
+    text-align: center;
+}
+
+#social a {
+    background-color: #b71234;
+}
+
+#social a:hover {
+    background-color: #96091c;
+}
